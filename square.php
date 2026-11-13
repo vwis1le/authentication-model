@@ -6,4 +6,4 @@ if ($n === false || $n === null) {
     echo json_encode(['error' => 'pass ?n=<integer>']);
     exit;
 }
-echo json_encode(['function' => 'square', 'n' => $n, 'square' => $n * $n, 'executed_at' => date('c')]);
+echo json_encode(['function' => 'square', 'n' => $n, 'square' => $n * $n, 'cube' => $n * $n * $n, 'executed_at' => date('c')]);
