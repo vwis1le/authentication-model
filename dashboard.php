@@ -10,7 +10,7 @@ function e($s){ return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
 <div class="card">
   <h2>Welcome, <?= e($_SESSION['fullname']) ?></h2>
   <div class="ok">Login successful. You are signed in as <b><?= e($_SESSION['username']) ?></b>.</div>
-  <p class="alt"><a href="logout.php">Log out</a></p>
+  <p class="alt"><a href="feedback.php">Course feedback form</a> | <a href="logout.php">Log out</a></p>
 </div>
 </body>
 </html>

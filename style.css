@@ -10,3 +10,5 @@ button:hover{background:#2c5282}
 p.alt{text-align:center;font-size:14px;margin-top:16px}
 table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px}
 td,th{border:1px solid #ccc;padding:6px;text-align:left}
+.card.wide{max-width:760px}
+select{width:100%;padding:9px;border:1px solid #bbb;border-radius:5px;box-sizing:border-box}
